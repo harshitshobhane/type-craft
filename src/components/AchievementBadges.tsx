@@ -4,21 +4,21 @@ import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/comp
 const achievements = [
   {
     id: 1,
-    name: "AI Challenger",
-    description: "Defeat the adaptive AI",
-    icon: "🤖",
+    name: "Challenge Master",
+    description: "Complete all unique challenges",
+    icon: "🏆",
   },
   {
     id: 2,
-    name: "Mode Explorer",
-    description: "Play all game modes",
-    icon: "🧭",
+    name: "Community Star",
+    description: "Join the daily player community",
+    icon: "🌟",
   },
   {
     id: 3,
-    name: "Power-Up Pro",
-    description: "Use every power-up",
-    icon: "💥",
+    name: "Match Legend",
+    description: "Play 1000 matches",
+    icon: "🎮",
   },
 ];
 

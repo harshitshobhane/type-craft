@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Trophy, Star, Shield, Shuffle, Zap } from 'lucide-react';
+import { Trophy, Star, Shield, Shuffle, Zap, Users, Gamepad } from 'lucide-react';
 
 interface Stat {
   value: number;
@@ -10,9 +10,9 @@ interface Stat {
 
 export const StatsCounter = () => {
   const [animatedStats, setAnimatedStats] = useState<Stat[]>([
-    { value: 0, label: 'Game Modes', icon: <Shuffle className="w-6 h-6" />, suffix: '' },
-    { value: 0, label: 'Power-Ups', icon: <Zap className="w-6 h-6" />, suffix: '+' },
-    { value: 0, label: 'Leaderboard Spots', icon: <Trophy className="w-6 h-6" />, suffix: '+' }
+    { value: 0, label: 'Unique Challenges', icon: <Star className="w-6 h-6" />, suffix: '+' },
+    { value: 0, label: 'Daily Players', icon: <Users className="w-6 h-6" />, suffix: '+' },
+    { value: 0, label: 'Total Matches', icon: <Gamepad className="w-6 h-6" />, suffix: '+' }
   ]);
 
   useEffect(() => {
